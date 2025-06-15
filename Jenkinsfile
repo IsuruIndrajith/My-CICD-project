@@ -18,7 +18,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'dev', url: 'https://gitlab.com/jevigsoft/my-cicd-project.git', credentialsId: 'jevigsoft-gitlab-credentials'
+                git branch: 'dev', url: 'https://gitlab.com/cicd8223124/cicd-project.git', credentialsId: 'gitlab'
             }
         }
 
